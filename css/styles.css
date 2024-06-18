@@ -1,0 +1,135 @@
+
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100wd;
+}
+
+header {
+    background-color: #C1FBFF !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px;
+    height: 3vh;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.116);
+}
+
+header div {
+    display: flex;
+    gap: 20px;
+}
+
+header a img {
+    width: 50px;
+
+}
+
+footer {
+    background-color: #C1FBFF;
+    padding: 10px 20px;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.116);
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+.titulos {
+    font-family: "Oswald", sans-serif
+}
+
+.principal {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.subtitulo {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.subtitulo a {
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+}
+
+.gerente {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.gerente div {
+    padding: 10px 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 5px #C3AE8D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;   
+}
+
+.vendedor {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    justify-content: center;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+.vendedor div {
+    padding: 10px 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 5px #C3AE8D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.centrado {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 40px;
+}
+
+.centrado h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+}
+
+.centrado div {
+    max-width: 300px;
+    margin-left: 42vw;
+}
+
+
