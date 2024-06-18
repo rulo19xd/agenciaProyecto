@@ -15,7 +15,7 @@ function VentaSubmit(event) {
     // Aquí puedes agregar más validaciones si es necesario
     if (saleDate !== '' && price !== '' && package !== '') {
         alert('Venta del paquete ' + package + ' ha sido completada.');
-        window.location.href = '/index.html';
+        window.location.href = '../index.html';
     } else {
         alert(errorVenta);
     }

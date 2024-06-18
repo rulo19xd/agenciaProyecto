@@ -15,7 +15,7 @@ function registroSubmit(event) {
     
     if (user !== '' && pass !== '') {
         alert('Registro exitoso para usuario: ' + user);
-        window.location.href = '/index.html';
+        window.location.href = '../index.html';
     } else {
         alert(error);
     }

@@ -3,6 +3,10 @@ function elegirRol(rol) {
     window.location.href = './pages/registro.html';
 }
 
+function index() {
+    window.location.href = '../index.html';
+}
+
 document.addEventListener('DOMContentLoaded', function() {
     const rolUsuario = localStorage.getItem('rolUsuario');
     if (rolUsuario) {
