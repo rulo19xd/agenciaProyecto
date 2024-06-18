@@ -1,0 +1,20 @@
+
+
+.body-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button {
+    width: 300px;
+    height: 100px;   
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    background-color: #B2F2BB;
+    border-radius: 15px;
+    border-color: black;
+    border: 2px solid black;
+    cursor: pointer;
+}

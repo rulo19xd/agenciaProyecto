@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Al Mundo| Paquetes</title>
-    <script src="../js/index.js" defer></script>
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/paquetes.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -14,19 +14,68 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <a href="../index.html">
-            <img src="../assets/logo.png" alt="Logo">
-        </a>
-        <div>
+<header>
+    <a href="../index.html">
+        <img src="../assets/logo.png" alt="Logo">
+    </a>
+    <div class="clock">
+        <div id="time"></div>
+    </div>
+    <div>
         <a href="../pages/registro.html">Registro</a>
+    </div>
+</header>
+    <div class="gallery">
+        <div class="card">
+            <img src="../assets/buenosaires.jpg" alt="Paquete Buenos Aires">
+            <div class="card-content">
+                <h3>Viaje a Buenos Aires</h3>
+                <p>7 dias 8 noches <br>
+                    500.000 ARS    <br>
+                </p>
+            </div>
         </div>
-    </header>
-
-    <footer>
-        <a href="">IG</a>
-        <a href="">FB</a>
-        <a href="">WA</a>
-    </footer>
+        <div class="card">
+            <img src="../assets/cordoba.jpg" alt="Paquete Cordoba">
+            <div class="card-content">
+                <h3>Viaje a Cordoba</h3>
+                <p>6 dias 7 noches <br>
+                    250.000 ARS    <br>
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../assets/mendoza.jpg" alt="Paquete Mendoza">
+            <div class="card-content">
+                <h3>Viaje a Mendoza</h3>
+                <p>3 dias 4 noches <br>
+                    100.000 ARS    <br>
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../assets/sanjuan.jpg" alt="Paquete San Juan">
+            <div class="card-content">
+                <h3>Viaje a San Juan</h3>
+                <p> 8 dias 7 noches <br>
+                    200.000 ARS     <br>
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../assets/ushuaia.jpg" alt="Paquete Ushuaia">
+            <div class="card-content">
+                <h3>Viaje a Ushuaia</h3>
+                <p> 4 dias 5 noches <br>
+                    155.000 ARS     <br>
+                </p>
+            </div>
+        </div>
+        </div>
+<footer>
+    <h4>Creado por Juam</h4>
+</footer>
+<script src="paquetes.js"></script>
+<script src="../js/reloj.js"></script>
 </body>
 </html>

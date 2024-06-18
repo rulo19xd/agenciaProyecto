@@ -13,7 +13,7 @@ body {
 }
 
 .form-container {
-    background-color: #fff;
+    background-color: #F2F2F2;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -52,15 +52,15 @@ input[type="text"], input[type="email"]{
 
 .form-container button {
         padding: 10px;
-        background-color: #007bff;
+        background-color: #C1FBFF;
         border: none;
         border-radius: 5px;
-        color: #fff;
+        color: black;
         font-size: 16px;
         cursor: pointer;
         transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #A1BAFF;
 }
